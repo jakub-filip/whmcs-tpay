@@ -10,10 +10,17 @@
         }
     ],
     "minimum-stability": "stable",
+    "config": {
+        "platform": {
+            "php": "8.2.0"
+        }
+    },
     "autoload": {
         "psr-4": {
             "JakubFilip\\Tpay\\": "./src/"
         }
     },
-    "require": {}
+    "require": {
+        "php": "^8.2"
+    }
 }
