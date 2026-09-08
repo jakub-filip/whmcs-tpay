@@ -4,6 +4,8 @@ if (!defined('WHMCS')) {
     exit('This file cannot be accessed directly.');
 }
 
+require_once __DIR__ . DIRECTORY_SEPARATOR . 'tpay' . DIRECTORY_SEPARATOR . 'vendor' . DIRECTORY_SEPARATOR . 'autoload.php';
+
 function tpay_MetaData(): array
 {
     return [
