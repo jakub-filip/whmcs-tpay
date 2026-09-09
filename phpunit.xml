@@ -11,7 +11,7 @@
         <ini name="display_errors" value="1"/>
     </php>
     <testsuites>
-        <testsuite name="Testy">
+        <testsuite name="Unit Tests">
             <directory>./tests</directory>
         </testsuite>
     </testsuites>
